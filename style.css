@@ -1,0 +1,152 @@
+
+
+@import url('https://fonts.googleapis.com/css2? family= PT+Sans:ital,wght@0,400;0,700;1,400;1,700 & display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  height:100%;
+  
+  font-family: 'Poppins', sans-serif;
+  
+  background-image: linear-gradient(to bottom,#DD2C3F,#DD4F5E);
+  
+
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  
+ align-items: center;
+
+  
+  
+}
+
+header{
+  font-family: "Kaushan Script" , cursive;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+  background-color: #2f0817;
+  
+  
+}
+
+header h1 {
+  color: white;
+  margin-left: 20px;
+  font-size: 3em;
+}
+
+header img {
+  border-radius: 50%;
+ width: 70px;
+ margin: 0 10px 0 0;
+
+}
+
+
+.menu {
+  grid-area:N;
+  border:2px solid black;
+  width: 100%;
+}
+
+.menu ul {
+ background-color: black;
+ list-style-type: none;
+ position: relative;
+ background-color:#940F08;
+ font-size:1em;
+ 
+
+ 
+}
+
+.menu ul li{
+  display:inline-block;
+  padding:10px 5px 10px 5px;
+  margin-left: 10px;
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color:white;
+}
+
+
+
+/*Sub-menu*/
+
+.menu ul ul {
+  display:none;
+  position: absolute;
+}
+
+.menu ul li:hover ul {
+  display:flex;
+  flex-direction: column;
+  left:0;
+}
+.menu ul ul {
+  width:25%;
+}
+
+.painel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 700px;
+  font-size: 1.5em;
+}
+
+.painel img{
+
+  width: 450px;
+  border-radius: 50%;
+  margin: 50px 0 0px 0 ;
+}
+
+main{
+  background-color: #efc7ae;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 20px;
+  
+}
+
+aside{
+  background-color: #efc7ae;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+aside ul {
+  padding: 0 0 0 20px;
+}
+footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+justify-content: center;
+  height: 50px;
+background-color: #9c6950;
+}

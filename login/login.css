@@ -39,12 +39,15 @@
 }
 
 
+
 main{
  display: flex;
  align-items: center;
  justify-content:center;
  height:100%;
 }
+
+
 
 
 form{
@@ -85,6 +88,7 @@ form input{
   width:100%;
   margin-bottom: 20%;
   background:none;
+  font-size: 1.5em;
 }
 
 form input::placeholder{
@@ -98,4 +102,33 @@ button{
   background-color: #C59660;
   border-radius:4px;
   font-family: "poppins";
+}
+
+@media (max-width:450px){
+   .container {
+    display:flex;
+   }
+
+  main {
+    width: 300px;
+    margin: 0 auto 0 auto;
+  }
+
+  form h1 {
+    font-size: 2em;
+  }
+
+  form label {
+    margin-bottom: 5px;
+    font-size: 1em;
+  }
+
+  form input {
+    margin-bottom: 5px;
+    font-size: 1em;
+  }
+
+  button {
+    height: 50px;
+  }
 }

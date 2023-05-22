@@ -104,13 +104,13 @@ button{
   font-family: "poppins";
 }
 
-@media (max-width:500px){
+@media (max-width:450px){
    .container {
     display:flex;
    }
 
   main {
-    width: 200px;
+    width: 300px;
     margin: 0 auto 0 auto;
   }
 

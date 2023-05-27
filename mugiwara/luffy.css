@@ -17,6 +17,7 @@ body{
 .container{
   display:flex;
   flex-direction: column;
+  flex-wrap: wrap;
   
   align-items: center;
 
@@ -62,6 +63,7 @@ header img{
 .menu {
  width: 100%;
   border:2px solid black;
+  border-width: 2px 0 2px 0;
 }
 
 .menu ul {
@@ -151,4 +153,8 @@ footer{
  justify-content: center;
  
  height:50px;
+}
+
+@media (max-width:450px){
+  
 }

@@ -60,6 +60,7 @@ header img {
 .menu {
   grid-area:N;
   border:2px solid black;
+  border-width: 2px 0 2px 0;
   width: 100%;
 }
 
@@ -112,13 +113,16 @@ header img {
   text-align: center;
   width: 700px;
   font-size: 1.5em;
+  margin-top: 5%;
 }
 
 .painel img{
 
   width: 450px;
   border-radius: 50%;
-  margin: 50px 0 0px 0 ;
+  margin: 50px 0 10% 0 ;
+
+
 }
 
 main{
@@ -149,4 +153,61 @@ footer{
 justify-content: center;
   height: 50px;
 background-color: #9c6950;
+}
+
+@media (max-width:450px) {
+
+  header {
+    font-size: 1em;
+    padding: 0%;
+  }
+  
+  header h1{
+    margin-left: 0%;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+header a{
+  width: 50px;
+  margin-right: 2%;
+  height: 50px;
+}
+
+
+
+ .menu ul {
+  font-size: 0.9em;
+ }
+
+  .painel{
+    width:90%;
+    flex-wrap: wrap;
+  }
+
+  .painel img{
+    width: 100%;
+    height: 50%;
+
+    
+
+  }
+
+  .painel h1 {
+    font-size: 1.5em;
+  }
+
+  .painel p {
+    font-size: 1em;
+  }
+
+  main {
+    width: 80%;
+  }
+
+  aside {
+    width: 80%;
+  }
 }

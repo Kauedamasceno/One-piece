@@ -133,12 +133,9 @@ main{
 }
 
 main img{
-  display: flex;
   height: 400px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   border-radius:4px;
+  margin: auto;
 }
 
 main ul{

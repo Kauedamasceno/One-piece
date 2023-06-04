@@ -13,45 +13,39 @@
 
 body{
   height:100%;
-  
-  font-family: 'Poppins', sans-serif;
-  
-  background-image: linear-gradient(to bottom,#DD2C3F,#DD4F5E);
-  
 
+  font-family: 'Poppins', sans-serif; 
+  background-image: linear-gradient(to bottom,#DD2C3F,#DD4F5E);
 }
 
 .container{
   display:flex;
   width: 100%;
   flex-direction: column;
-  
- align-items: center;
-
-  
-  
+  align-items: center;
 }
 
 header{
-  font-family: 'Dancing Script', cursive;
   display: flex;
   align-items: center;
   width: 100%;
   justify-content: space-between;
 
+  font-family: 'Dancing Script', cursive;
   background-color: #2f0817;
   
   
 }
 
 header h1 {
-  color: white;
   margin-left: 20px;
   font-size: 3em;
+
+  color: white;
 }
 
 header img {
-  border-radius: 50%;
+ border-radius: 50%;
  width: 70px;
  margin: 0 10px 0 0;
 
@@ -59,28 +53,23 @@ header img {
 
 
 .menu {
-  grid-area:N;
   border:2px solid black;
   border-width: 2px 0;
   width: 100%;
 }
 
 .menu ul {
+ font-size:1em;
+ position: relative;
  background-color: black;
  list-style-type: none;
- position: relative;
  background-color:#940F08;
- font-size:1em;
- 
-
- 
 }
 
 .menu ul li{
   display:inline-block;
   padding:10px 5px 10px 5px;
   margin-left: 10px;
-
 }
 
 .menu ul li a{
@@ -122,27 +111,29 @@ header img {
   width: 450px;
   border-radius: 50%;
   margin: 50px 0 10% 0 ;
-  border : 2px solid black
-
+  border : 2px solid black;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
 
 }
-
 main{
-  background-color: #efc7ae;
   width: 500px;
-  border: 2px solid black;
   border-radius: 4px;
+  border: 2px solid black;
   padding: 20px;
-  
+
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
+  background-color: #efc7ae;
 }
 
 aside{
-  background-color: #efc7ae;
   margin-top: 50px;
   width: 500px;
   border: 2px solid black;
   border-radius: 4px;
   padding: 20px;
+
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
+  background-color: #efc7ae;
 }
 
 aside ul {
@@ -152,9 +143,9 @@ footer{
   width: 100%;
   display: flex;
   align-items: center;
-justify-content: center;
+  justify-content: center;
   height: 50px;
-background-color: #9c6950;
+  background-color: #9c6950;
 }
 
 @media (max-width:450px) {

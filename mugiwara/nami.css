@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+margin:0;
+padding:0;
+}
+
+body{
+font-family: 'Poppins', sans-serif;
+background-color: #eb944f;
+}
+
+.container{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+header{
+width:100%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+
+background-color: #9f6435;
+color: white;
+font-family: 'Dancing Script', cursive;
+
+
+}
+
+header a:first-child{
+font-size: 1.5em;
+margin-left: 20px;
+
+text-decoration: none;
+color:white;
+}
+
+header a:last-child {
+display:flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+
+color:white;
+}
+
+header img{ 
+border-radius: 50%;
+width: 70px;
+margin: 0 10px 0 0;
+}
+
+
+.menu {
+grid-area: N;
+border:2px solid black;
+
+width: 100%;
+}
+
+.menu ul {
+background-color: black;
+list-style-type: none;
+position: relative;
+background-color:#9f9c5b;
+
+
+font-size: 1em;
+}
+
+.menu ul li{
+display:inline-block;
+padding:10px 5px 10px 5px;
+margin-left: 10px;
+
+}
+
+.menu ul li a{
+text-decoration: none;
+color:white;
+}
+
+
+/*Sub-menu*/
+
+.menu ul ul {
+display:none;
+position: absolute;
+}
+
+.menu ul li:hover ul {
+display:flex;
+flex-direction: column;
+left:0;
+border-radius:0 0 4px 4px;
+}
+.menu ul ul {
+width:25%;
+}
+
+.Nami{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 1.5em;
+}
+
+.Nami img{
+border-radius:50%;
+width: 450px;
+margin: 50px 0 50px 0; 
+text-align: center;
+border : 2px solid black;
+
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
+}
+
+main{
+width: 500px;
+margin:0 5%;
+padding:20px;
+border:2px solid black;
+border-radius:4px;
+
+background-color: #ebb183;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
+}
+
+main ul{
+padding-left: 5%;
+}
+
+main img{
+display: flex;
+margin: 0 auto 0 auto;
+height: 100%;
+width: 50%;
+border-radius: 4px;
+}
+
+aside{
+padding: 10px 20px 20px 20px;
+margin:5% 5%;
+width: 500px;
+border:2px solid black;
+border-radius:4px;
+
+background-color: #ebb183;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
+}
+footer{
+width: 100%;
+height: 50px;
+align-items: center;
+display: flex;
+justify-content: center;
+
+background-color: #ebb183;
+}
+
+@media (max-width:450px){
+html{
+  width: 100%;
+}
+
+header {
+  font-size: 1em;
+  padding: 0%;
+  height: 100%;
+}
+
+header a:first-child{
+  margin-left: 0%;
+  height: 100%;
+  font-size: 1.5em;
+}
+header h1 {
+  height: 100%;
+}
+
+header img {
+  width: 100%;
+  margin-right: 0;
+}
+
+header a{
+width: 50px;
+margin-right: 2%;
+height: 50px;
+}
+
+.menu {
+width: 100%;
+}
+
+.menu ul {
+font-size: 0.9em;
+}
+
+.menu ul li {
+margin-left: 0%;
+}
+
+.Nami {
+  width:90%;
+  flex-wrap: wrap;
+}
+
+.Nami img{
+  width: 100%;
+  height: 50%;
+
+  
+
+}
+
+.Nami h1 {
+  font-size: 1.5em;
+}
+
+.Nami p {
+  font-size: 1em;
+}
+
+main {
+  width: 80%;
+  margin: 0%;
+}
+main img {
+  width: 100%;
+  height: auto;
+}
+
+main ul{
+  padding-left: 30px;
+}
+aside {
+  width: 80%;
+}
+
+
+}

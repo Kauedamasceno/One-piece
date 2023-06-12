@@ -8,7 +8,7 @@ padding:0;
 
 body{
 font-family: 'Poppins', sans-serif;
-background-color: #f7e859;
+background-color: #22aaaa;
 }
 
 .container{
@@ -22,7 +22,7 @@ display: flex;
 justify-content: space-between;
 align-items:center;
 
-background-color: #bdb358;
+background-color: #187a7a;
 color: white;
 font-family: 'Dancing Script', cursive;
 
@@ -56,6 +56,7 @@ margin: 0 10px 0 0;
 .menu {
 grid-area: N;
 border:2px solid black;
+border-width: 2px 0;
 
 width: 100%;
 }
@@ -64,7 +65,7 @@ width: 100%;
 background-color: black;
 list-style-type: none;
 position: relative;
-background-color:#3c340a;
+background-color:#252f75;
 
 
 font-size: 1em;
@@ -125,7 +126,7 @@ padding:20px;
 border:2px solid black;
 border-radius:4px;
 
-background-color: #f7ed8e;
+background-color: #75fafa;
 box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
 }
 
@@ -148,7 +149,7 @@ width: 500px;
 border:2px solid black;
 border-radius:4px;
 
-background-color: #f7ed8e;
+background-color: #75fafa;
 box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
 }
 footer{
@@ -158,7 +159,7 @@ align-items: center;
 display: flex;
 justify-content: center;
 
-background-color: #f7ed8e;
+background-color: #75fafa;
 }
 
 @media (max-width:450px){

@@ -56,7 +56,7 @@ header img{
 .menu {
   grid-area: N;
   border:2px solid black;
-  
+  border-width: 2px 0;
   width: 100%;
 }
 

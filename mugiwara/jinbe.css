@@ -8,7 +8,7 @@ padding:0;
 
 body{
 font-family: 'Poppins', sans-serif;
-background-color: #281dff;
+background-color: #0bffbc;
 }
 
 .container{
@@ -22,7 +22,7 @@ display: flex;
 justify-content: space-between;
 align-items:center;
 
-background-color: #001a7f;
+background-color: #07a177;
 color: white;
 font-family: 'Dancing Script', cursive;
 
@@ -65,9 +65,8 @@ width: 100%;
 background-color: black;
 list-style-type: none;
 position: relative;
-background-color:#15b3bb;
+background-color:#00c663;
 
-color: black;
 
 font-size: 1em;
 }
@@ -77,14 +76,11 @@ display:inline-block;
 padding:10px 5px 10px 5px;
 margin-left: 10px;
 
-
-
 }
 
 .menu ul li a{
 text-decoration: none;
 color:white;
-color: black;
 }
 
 
@@ -105,7 +101,7 @@ border-radius:0 0 4px 4px;
 width:25%;
 }
 
-.Sanji{
+.Jinbe{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -113,7 +109,7 @@ justify-content: center;
 font-size: 1.5em;
 }
 
-.Sanji img{
+.Jinbe img{
 border-radius:50%;
 width: 450px;
 margin: 50px 0 50px 0; 
@@ -130,7 +126,7 @@ padding:20px;
 border:2px solid black;
 border-radius:4px;
 
-background-color: #5376fa;
+background-color: #5dffd2;
 box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
 }
 
@@ -153,7 +149,7 @@ width: 500px;
 border:2px solid black;
 border-radius:4px;
 
-background-color: #5376fa;
+background-color: #5dffd2;
 box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
 }
 footer{
@@ -163,7 +159,7 @@ align-items: center;
 display: flex;
 justify-content: center;
 
-background-color: #5376fa;
+background-color: #5dffd2;
 }
 
 @media (max-width:450px){
@@ -209,12 +205,12 @@ font-size: 0.9em;
 margin-left: 0%;
 }
 
-.Sanji {
+.Jinbe {
   width:90%;
   flex-wrap: wrap;
 }
 
-.Sanji img{
+.Jinbe img{
   width: 100%;
   height: 50%;
 
@@ -222,11 +218,11 @@ margin-left: 0%;
 
 }
 
-.Sanji h1 {
+.Jinbe h1 {
   font-size: 1.5em;
 }
 
-.Sanji p {
+.Jinbe p {
   font-size: 1em;
 }
 

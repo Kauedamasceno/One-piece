@@ -8,7 +8,7 @@ padding:0;
 
 body{
 font-family: 'Poppins', sans-serif;
-background-color: #281dff;
+background-color: white;
 }
 
 .container{
@@ -22,7 +22,7 @@ display: flex;
 justify-content: space-between;
 align-items:center;
 
-background-color: #001a7f;
+background-color: #808080;
 color: white;
 font-family: 'Dancing Script', cursive;
 
@@ -65,9 +65,8 @@ width: 100%;
 background-color: black;
 list-style-type: none;
 position: relative;
-background-color:#15b3bb;
+background-color:#252525;
 
-color: black;
 
 font-size: 1em;
 }
@@ -77,14 +76,11 @@ display:inline-block;
 padding:10px 5px 10px 5px;
 margin-left: 10px;
 
-
-
 }
 
 .menu ul li a{
 text-decoration: none;
 color:white;
-color: black;
 }
 
 
@@ -105,7 +101,7 @@ border-radius:0 0 4px 4px;
 width:25%;
 }
 
-.Sanji{
+.Brook{
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -113,7 +109,7 @@ justify-content: center;
 font-size: 1.5em;
 }
 
-.Sanji img{
+.Brook img{
 border-radius:50%;
 width: 450px;
 margin: 50px 0 50px 0; 
@@ -130,7 +126,8 @@ padding:20px;
 border:2px solid black;
 border-radius:4px;
 
-background-color: #5376fa;
+background-color: black;
+color: white;
 box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
 }
 
@@ -153,8 +150,8 @@ width: 500px;
 border:2px solid black;
 border-radius:4px;
 
-background-color: #5376fa;
-box-shadow: 3px 3px 8px rgba(0, 0, 0, 285);
+background-color: black;
+color: white;
 }
 footer{
 width: 100%;
@@ -163,7 +160,8 @@ align-items: center;
 display: flex;
 justify-content: center;
 
-background-color: #5376fa;
+background-color: black;
+color: white;
 }
 
 @media (max-width:450px){
@@ -209,12 +207,12 @@ font-size: 0.9em;
 margin-left: 0%;
 }
 
-.Sanji {
+.Brook {
   width:90%;
   flex-wrap: wrap;
 }
 
-.Sanji img{
+.Brook img{
   width: 100%;
   height: 50%;
 
@@ -222,11 +220,11 @@ margin-left: 0%;
 
 }
 
-.Sanji h1 {
+.Brook h1 {
   font-size: 1.5em;
 }
 
-.Sanji p {
+.Brook p {
   font-size: 1em;
 }
 
